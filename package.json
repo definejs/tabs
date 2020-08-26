@@ -1,0 +1,22 @@
+{
+  "name": "@definejs/tabs",
+  "version": "0.1.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "micty",
+  "email": "mictydeng@qq.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/definejs/tabs.git"
+  },
+  "dependencies": {
+    "@definejs/emitter": "^0.1.4",
+    "@definejs/object": "^0.1.7",
+    "@definejs/string": "^0.1.5",
+    "@definejs/template": "^0.1.2",
+    "jquery": "^3.5.1"
+  }
+}
