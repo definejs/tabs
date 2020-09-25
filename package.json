@@ -1,6 +1,6 @@
 {
   "name": "@definejs/tabs",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "",
   "main": "index.js",
   "scripts": {},
@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@definejs/emitter": "^0.1.4",
-    "@definejs/object": "^0.1.7",
+    "@definejs/object": "^1.0.6",
     "@definejs/string": "^0.1.5",
     "@definejs/template": "^0.1.2",
     "jquery": "^3.5.1"
