@@ -209,7 +209,7 @@ Tabs.prototype = /**@lends Tabs#*/ {
         let meta = mapper.get(this);
         let activedIndex = meta.current.index;
 
-        meta.fire('before-remove', [index]);
+        meta.emitter.fire('before-remove', [index]);
 
         //移除的是当前激活项之前的，则重新设置激活状态即可。
         if (index < activedIndex) {
@@ -222,7 +222,7 @@ Tabs.prototype = /**@lends Tabs#*/ {
 
         meta.list.splice(index, 1);
 
-        meta.fire('remove', [index]);
+        meta.emitter.fire('remove', [index]);
 
     },
 
