@@ -1,17 +1,13 @@
 ﻿
-const $String = require('@definejs/string');
-
-const prefix = 'definejs-tabs-';    //用于生成组件 id 的前缀部分。
-const suffix = 4;                   //用于生成组件 id 的随机部分的长度。
-
+const IDMaker = require('@definejs/id-maker');
 
 
 module.exports = {
     create(config, others) {
-        let id = $String.randomId(prefix, suffix);
+        let maker = new IDMaker(config.idPrefix);
 
         let meta = {
-            'id': id,
+            'id': maker.next(),                         //实例的 id。
             'activedClass': config.activedClass || '',  //激活时的 item 的样式类名。
             'pressedClass': config.pressedClass || '',  //按下时的 item 的样式类名。
             'eventName': config.eventName || '',        //

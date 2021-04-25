@@ -4,6 +4,11 @@
 */
 module.exports = {
     /**
+    * 生成组件时的 id 前缀。
+    * 建议保留现状。
+    */
+    idPrefix: 'definejs-Tabs',
+    /**
     * 创建实例后首先给激的项。
     */
     current: null,
