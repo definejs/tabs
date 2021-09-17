@@ -1,7 +1,7 @@
 {
   "name": "@definejs/tabs",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "通用的页签列表组件类。",
   "main": "index.js",
   "scripts": {},
   "keywords": [],
@@ -16,7 +16,6 @@
     "@definejs/emitter": "^1.0.0",
     "@definejs/id-maker": "^1.0.1",
     "@definejs/object": "^1.1.0",
-    "@definejs/string": "^1.0.0",
     "@definejs/template": "^1.0.0",
     "jquery": "^3.5.1"
   }
